@@ -1,0 +1,23 @@
+{
+  "name": "social-media",
+  "version": "1.0.0",
+  "description": "A modern, full-stack social media platform built with the MERN stack (MongoDB, Express, React, Node.js) and Vite.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManavPratapSingh-off/social-media.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ManavPratapSingh-off/social-media/issues"
+  },
+  "homepage": "https://github.com/ManavPratapSingh-off/social-media#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.1"
+  }
+}
