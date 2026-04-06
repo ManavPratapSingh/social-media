@@ -14,7 +14,7 @@ import Profile from './pages/Profile.jsx'
 import UploadPage from './pages/UploadPage.jsx'
 import { AppProvider } from './context/AppProvider.jsx'
 import usePostCall from './hooks/usePostCall.jsx'
-import FluidLandingPage from './pages/FluidLandingPage.jsx'
+import FluidLandingPage from './pages/fluidLandingPage/FluidLandingPage.jsx'
 
 function App() {
   useCurrentUser()

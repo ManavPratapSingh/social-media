@@ -1,4 +1,4 @@
-nav {
+.sidebar-nav {
     display: grid;
     grid-template-rows: 4fr 5fr 7fr;
     width : 15rem;
@@ -19,4 +19,8 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+}
+
+#fluid-landing-page-navbar-links {
+    flex-direction: row;
 }
