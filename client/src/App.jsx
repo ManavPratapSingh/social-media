@@ -15,6 +15,7 @@ import UploadPage from './pages/UploadPage.jsx'
 import { AppProvider } from './context/AppProvider.jsx'
 import usePostCall from './hooks/usePostCall.jsx'
 import FluidLandingPage from './pages/fluidLandingPage/FluidLandingPage.jsx'
+import ComingSoon from './pages/fluidLandingPage/ComingSoon.jsx'
 
 function App() {
   useCurrentUser()
@@ -32,6 +33,7 @@ function App() {
         <Route path='/profile/:user_name' element={<Profile />} />
         <Route path='/upload' element={<UploadPage />} />
         <Route path='/fluid-test' element={<FluidLandingPage />} />
+        <Route path='/coming-soon' element={<ComingSoon />} />
       </Routes>
     </AppProvider>
   )

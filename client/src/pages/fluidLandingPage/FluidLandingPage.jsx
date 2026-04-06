@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import NavBar from './NavBar'
 import SimpleWaves from './SimpleWaves';
 
@@ -25,13 +26,13 @@ function Footer() {
     <footer className='py-12 px-4 bg-transparent text-[var(--color-muted)] flex flex-col items-center gap-6 border-t border-white/10'>
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 max-w-4xl">
         {links.map((link, index) => (
-          <a
+          <Link
             key={index}
-            href="#"
+            to="/coming-soon"
             className="text-xs font-medium hover:underline transition-all"
           >
             {link}
-          </a>
+          </Link>
         ))}
       </div>
 
