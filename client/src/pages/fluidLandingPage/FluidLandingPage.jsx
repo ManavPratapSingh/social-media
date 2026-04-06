@@ -1,10 +1,12 @@
 import NavBar from './NavBar'
+import SimpleWaves from './SimpleWaves';
 
 function FluidLandingPage() {
   return (
-    <main>
+    <main className='relative'>
     <NavBar />
-    <section className='h-screen w-full bg-[var(--color-bg)] text-[var(--color-text)] flex items-center justify-center text-5xl'>
+    <SimpleWaves />
+    <section className='h-screen w-full text-[var(--color-text)] flex items-center justify-center text-5xl font-bold text-center px-4'>
       Connect with Friends and Family
     </section>
     <Footer />
@@ -20,7 +22,7 @@ function Footer() {
   ];
 
   return (
-    <footer className='py-12 px-4 bg-[var(--color-bg)] text-[var(--color-muted)] flex flex-col items-center gap-6 border-t border-[var(--color-border)]'>
+    <footer className='py-12 px-4 bg-transparent text-[var(--color-muted)] flex flex-col items-center gap-6 border-t border-white/10'>
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 max-w-4xl">
         {links.map((link, index) => (
           <a
