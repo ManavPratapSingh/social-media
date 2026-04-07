@@ -12,7 +12,8 @@ function NavBar() {
     items-center
     justify-between
     px-12
-    sticky
+    absolute 
+    w-full
     top-0
     z-50
     border-b

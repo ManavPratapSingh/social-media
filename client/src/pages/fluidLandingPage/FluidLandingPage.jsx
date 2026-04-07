@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom'
 import NavBar from './NavBar'
 import SimpleWaves from './SimpleWaves';
+import HeroSection from './HeroSection';
 
 function FluidLandingPage() {
   return (
     <main className='relative'>
     <NavBar />
     <SimpleWaves />
-    <section className='h-screen w-full text-[var(--color-text)] flex items-center justify-center text-5xl font-bold text-center px-4'>
-      Connect with Friends and Family
-    </section>
+    <HeroSection />
     <Footer />
     </main>
   )
